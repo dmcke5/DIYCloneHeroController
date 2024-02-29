@@ -5,8 +5,10 @@
 Here's the printed version of my clone hero controller! 
 
 #### Assembly
-The original Youtube video should provide enough information for assembly, here's a link: 
+The original Youtube video should provide enough information for assembly, here's a link:
+
 [The ULTIMATE DIY Clone Hero Controller](https://youtu.be/poKoy9RzIDI)
+
 I've included 3mm holes between all of the printed body and kneck parts to help with alignment and strength when glueing them together for assembly.
 
 #### Software
@@ -15,7 +17,7 @@ The Arduino code is pretty bare-bones, but its enough to get the controller func
 #### Wiring
 Wiring for buttons is shown below on a Pro Micro Clone. You should be able to use the same pinout on any 32u4 based arduino. VCC and GND need to also be connected both to the Strum bar pcb and the
 whammy bar potentiometer. The Strum bar PCB passes VCC and GND through to the neck PCB.
-I used a 10k potentiometer for my whammy bar. The order that the buttons are connected in doesn't actually matter, as you'll configure them in clone hero anyway but if you stick to the pins I've specified you won't have to change the code.
+I used a 10k potentiometer for my whammy bar. The order that the buttons are connected in doesn't actually matter, as you'll configure them in clone hero anyway but if you stick to the pins I've specified you won't have to change the code. The LED signal is connected to pin 16.
 
 ![Alt text](Wiring.png "Wiring")
 
